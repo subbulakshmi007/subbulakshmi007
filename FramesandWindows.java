@@ -11,7 +11,7 @@ public class FramesandWindows extends Baseclass {
 	{
 	 init();
 	 iframe();
-	 //teardown();
+	 teardown();
 	
 	}
 
