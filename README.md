@@ -1,7 +1,9 @@
 - 👋 Hi, I’m sankara subbulakshmi.
 - 👀 I’m interested in software testing that navigate from manual to Automation testing process flow.
 - 🌱 I’m currently working selenium With java automation  Framework.
-- 💞️ Here i show up example ecommerce project functionality to develop test script and automate test scenarios by selenium webdriver .
+- 💞️ Here i show up example of every single module how automate in webbrowser by using selenium.
+- And
+-  ecommerce project functionality to develop test script and automate test scenarios by selenium webdriver .
 -----------------------------------------------------------------------------------------------------------------------------------------
 - Fuctionalities splitted by small Units with example:
   
