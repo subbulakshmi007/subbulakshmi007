@@ -8,11 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 public class Staticdropdown extends Baseclass {
 	
-
 	public static void main(String[] args) throws InterruptedException 
 	{
 	
-		
 		init();
 		//Staticdropdown std = new Staticdropdown();
 		//std.staticsingle();
@@ -40,8 +38,7 @@ public class Staticdropdown extends Baseclass {
 	
 	  static void staticmultiple() throws InterruptedException 
 	{
-
-		
+	
 		driver.get("https://www.hyrtutorials.com/p/html-dropdown-elements-practice.html");
 		WebElement webeleid= driver.findElement(By.id("ide"));
 	    Select s = new Select(webeleid);
@@ -52,17 +49,6 @@ public class Staticdropdown extends Baseclass {
 	    s.selectByValue("vs");
 	    Thread.sleep(2000);
 	    
-	  //========
-	    s.deselectByVisibleText("NetBeans");
-		//List<WebElement> allopt= s.getOptions();
-	/*	for(WebElement ap:allopt)
-		{	
-			System.out.println(ap.getText());	
-			
-		}*/
-	    
-		
-		
 	}
 	
 	
