@@ -17,12 +17,7 @@ public class Baseclass
  {      
 		  System.setProperty("Webdriver.chrome.driver", "C:\\chromedriver\\chromedriver-new\\chromedriver.exe");
 	       driver.manage().window().maximize(); 
-	       options.addArguments("--disable-notifications");	
-	       
-	    
-		
-	       
-	       
+	       options.addArguments("--disable-notifications");		       
  }
 public static void waittoAppear()
 {
