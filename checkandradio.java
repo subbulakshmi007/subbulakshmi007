@@ -14,22 +14,12 @@ public class checkandradio extends Baseclass {
 	public static void main(String[] args) 
 	{
 		init();
-		//check();
-		//check1();
+		
+		check1();
 		radio();
 		teardown();
 		
 	}
-
-	public static void check()
-	{
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		System.out.println(driver.findElement(By.id("checkBoxOption2")).isSelected());
-		driver.findElement(By.id("checkBoxOption2")).isSelected();
-		driver.findElement(By.id("checkBoxOption2")).click();
-		System.out.println(driver.findElement(By.id("checkBoxOption2")).isSelected());
-	}
-	
 	public static void check1()
 	{
 	driver.get("https://demoqa.com/checkbox");
