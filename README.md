@@ -25,6 +25,10 @@ Take screenshot,
 Scroll webtable,
 tooltip.
 
+Every Single module automate individually with testscript.
+
+Create a base class for reusable components,common codes.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 **Technologies:**
 
